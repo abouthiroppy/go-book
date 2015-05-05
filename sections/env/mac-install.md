@@ -1,4 +1,4 @@
-## install
+## Install
 
 Homebrewを使ってインストールする  
 `brew install go`
@@ -21,14 +21,21 @@ brew install go  2.03s user 2.24s system 92% cpu 4.630 total
 
 ```
 
-## version
+## Environment Variable
+```
+export GOROOT=$HOME/go  
+export GOPATH=$HOME/gopath
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+```
+
+## Version
 
 ```
 $ go version
 go version go1.4.2 darwin/amd64
 ```
 
-## Hello Word
+## Hello World
 
 `helloworld.go`
 ```
