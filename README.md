@@ -18,6 +18,10 @@
     - index.md
     - env
 
+## 参考
+- [golang.jp](http://golang.jp/install)
+- [github.com/astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
+
 ---
 
 ![gopherbw](images/gopherbw.png)
