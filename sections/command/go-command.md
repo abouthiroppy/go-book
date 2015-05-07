@@ -1,6 +1,6 @@
 # --- Editing ---
 
-# Command Options
+## Command Options
 
 
 ```
@@ -10,7 +10,7 @@ Usage:
 
 ```
 
-- ##build
+- ## build
   - コンパイルをするために使用  
   - `go build` はデフォルトでカレントディレクトリ内の`.go`を
 すべてコンパイルするのでもし特定のファイルをコンパイルするには`go build filename`と書く必要がある
