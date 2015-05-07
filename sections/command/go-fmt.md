@@ -36,18 +36,18 @@ usage: gofmt [flags] [path ...]
 `pattern -> replacement` のように書く
 
 - 余計なカッコがついているものを確認する  
-#### `gofmt -r '(a) -> a' -l *.go`
+`gofmt -r '(a) -> a' -l *.go`
 - 余計なカッコを消す  
-#### `gofmt -r '(a) -> a' -w *.go`
-- `array[0:len(arrays)] -> arrays[0:]` をしたい  
-#### `a[b:len(a)] -> a[b:]`
+`gofmt -r '(a) -> a' -w *.go`
+- `array[0:len(arrays)] -> arrays[0:]` のように簡略化する  
+`a[b:len(a)] -> a[b:]`
 
 ### -s
 自動的にコードをシンプルにする
 - リテラルの簡略化  
 `[]T{T{}, T{}}` -> `[]T{{}, {}}`  
 
-- コードのシンプル化
+- コードのシンプル化  
 `s[a:len(s)]` -> `s[a:]`  
 `for x, _ = range v {...}` -> `for x = range v {...}`
 
