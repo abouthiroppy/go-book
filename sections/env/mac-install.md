@@ -30,7 +30,8 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 `go env GOROOT`を使うことにより`$GOROOT`の中身がわかる
 ```
-$ go env GOROOT                                                                                                                                             /usr/local/Cellar/go/1.4.2/libexec
+$ go env GOROOT
+/usr/local/Cellar/go/1.4.2/libexec
 ```
 
 ## Version
