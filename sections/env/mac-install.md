@@ -25,6 +25,7 @@ brew install go  2.03s user 2.24s system 92% cpu 4.630 total
 ```
 export GOPATH=$HOME/gopath
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
 ```
 
 ## Version
