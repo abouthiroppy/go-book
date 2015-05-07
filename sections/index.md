@@ -9,3 +9,4 @@
 
 ### 言語仕様
 - [はじめに](specification/base.md)
+- [リテラル](specification/literal.md)
