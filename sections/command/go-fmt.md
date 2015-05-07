@@ -40,7 +40,7 @@ usage: gofmt [flags] [path ...]
 - 余計なカッコを消す  
 `gofmt -r '(a) -> a' -w *.go`
 - `array[0:len(arrays)] -> arrays[0:]` のように簡略化する  
-`a[b:len(a)] -> a[b:]`
+`gofmt -r a[b:len(a)] -> a[b:]`
 
 ### -s
 自動的にコードをシンプルにする
