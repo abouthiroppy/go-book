@@ -22,10 +22,15 @@ brew install go  2.03s user 2.24s system 92% cpu 4.630 total
 ```
 
 ## Environment Variable
+.zshrcの中に以下を書き込む
 ```
 export GOPATH=$HOME/gopath
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
+```
+`go env GOROOT`を使うことにより`$GOROOT`の中身がわかる
+```
+$ go env GOROOT                                                                                                                                             /usr/local/Cellar/go/1.4.2/libexec
 ```
 
 ## Version
