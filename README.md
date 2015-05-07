@@ -20,6 +20,7 @@
 
 ## 参考
 - [golang.jp](http://golang.jp/install)
+- [golang.org/ref/spec](http://golang.org/ref/spec)
 - [github.com/astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
 
 ---
