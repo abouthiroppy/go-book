@@ -16,7 +16,9 @@
 - README.md
   - sections
     - index.md
+    - command
     - env
+    - specification
 
 ## 参考
 - [golang.jp](http://golang.jp/install)
